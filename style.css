@@ -1,0 +1,112 @@
+
+body {
+    font-family:Arial ,sans-serif ;
+    margin :0;
+    padding :0;
+    background-colour :#f9f9f9;
+    color:#333;
+}
+header {
+    background-color :#ff6347;
+    color:white;
+    text-align:center;
+    padding :20px;
+}
+header h1 {
+    margin :0;
+
+}
+header p {
+    font-size:1.2em;
+}
+nav {
+    background-color :#333;
+}
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+nav ul {
+    list-Style : none;
+    margin: 0;
+    padding :0;
+    display:flex;
+    justify-content:center;
+}
+nav ul li {
+    margin: 0 20px ;
+}
+nav ul li a {
+    color: white;
+    text-decoration :none;
+    font-size:1em;
+}
+nav ul li a :hover {
+    text-decoration :underline;
+}
+#dishes {
+
+background-color :rebeccapurple;
+padding:20px;
+width:100%;
+margin:auto;
+text-align:center;
+}
+.dish{
+    display:inline-block;
+    width:100%;
+    margin:10px;
+    padding :10px;
+    background:white;
+    border :1ps solid #add;
+    border-radius:8px;
+    box-shadow:0 4px 6px  rgba(0,0,0.1);
+}
+
+.dish #one{
+    width:100%;
+    height:400px;
+    background-color:red;
+    background-image:url("img/pizza.jpg");
+    background-size:cover;
+}
+.dish #two {
+    width:100%;
+    height:400px;
+    background-color:red;
+    background-image:url("img/burger.jpg");
+    background-size:cover;
+}
+.dish #three{
+    width:100%;
+    height:400px;
+    background-color:red;
+    background-image: url(img/Spaghetti.jpg);
+    background-size:cover;
+}
+.dish #four {   
+    width:100%;
+    height:400px;
+    background-color:red;
+    background-image: url(img/salad.jpg);
+    background-size:cover;
+
+}
+.didh h3{
+    color:#ff6347;
+    margin:10px  0 5px;
+
+}
+.dish p {
+    font-size:0.9em;
+    color:#555;
+
+}
+footer {
+    text-align:center;
+    background-color:#333;
+    color:white;
+    padding: 10px 0;
+    margin-top :20px;
+}
